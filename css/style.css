@@ -9,6 +9,14 @@ a {
     cursor: pointer;
 }
 
+a[href] {
+    color: black;
+}
+
+a::first-letter {
+    color: navy;
+}
+
 
 header {
     width: 100%;
@@ -34,7 +42,7 @@ nav .nav-right-section li {
 }
 
 a:hover {
-    color: gray;
+    color: rgb(72, 49, 49);
 }
 
 header nav li:nth-of-type(4) {
